@@ -1,12 +1,14 @@
-import React from 'react';
+
 import App from './App';
 import { Outlet } from 'react-router-dom';
-import Home from './Home/Home';
+
+import Navbar from './Home/Navbar';
 
 const Root = () => {
     return (
         <div>
-            <Home/>
+            <Navbar></Navbar>
+            
             <App></App>
             
             <Outlet/>
